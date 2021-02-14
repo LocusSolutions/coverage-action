@@ -52,9 +52,9 @@ async function run(): Promise<void> {
         name: title,
         head_sha: sha,
         status: 'completed',
-        conclusion: coverage.linecoverageDelta >= 0 ? 'success' : 'failure',
+        conclusion: coverage.linecoverageDelta >= 0 ? 'success' : 'neutral',
         output: {
-          title: `Current code coverage is now ${coverage.linecoverage.toFixed(2)}%`,
+          title: `Coverage is ${coverage.linecoverageDelta >= 0 ? 'up' : 'down'} by ${Math.abs(coverage.linecoverageDelta).toFixed(2)}% (${coverage.linecoverage.toFixed(2)}%)`,
           summary: `If this branch is merged, coverage will go ${coverage.linecoverageDelta >= 0 ? 'up' : 'down'} by ${Math.abs(coverage.linecoverageDelta).toFixed(2)}% `,
           text: coverageSummary
           // text:
