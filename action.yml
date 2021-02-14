@@ -1,0 +1,22 @@
+name: 'coverage-action'
+description: 'Generate a summary from the codec overage'
+author: 'Anders Klepaker'
+inputs:
+  REPO_TOKEN:
+    required: true
+    description: 'GitHub token'
+  SHA:
+    required: true
+    description: 'Current SHA for the Workflow'
+  TITLE:
+    required: true
+    description: 'Title of the report'
+  CURRENT_SUMMARY_PATH:
+    required: true
+    description: 'Path to the current Summary.json file'
+  TARGET_SUMMARY_PATH:
+    required: true
+    description: 'Path to the target Summary.json file'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

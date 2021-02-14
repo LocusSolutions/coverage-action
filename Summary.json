@@ -1,0 +1,962 @@
+﻿{
+  "summary": {
+    "generatedon": "2021-02-11T13:47:09Z",
+    "parser": "MultiReportParser (10x OpenCoverParser)",
+    "assemblies": 18,
+    "classes": 73,
+    "files": 87,
+    "coveredlines": 483,
+    "uncoveredlines": 1720,
+    "coverablelines": 2193,
+    "totallines": 4484,
+    "linecoverage": 21,
+    "coveredbranches": 53,
+    "totalbranches": 92,
+    "branchcoverage": 57.6
+  },
+  "coverage": {
+    "assemblies": [
+      {
+        "name": "Server.ClientConfiguration.Adapter",
+        "classes": 5,
+        "coverage": 64.7,
+        "coveredlines": 57,
+        "coverablelines": 88,
+        "totallines": 272,
+        "branchcoverage": 50,
+        "coveredbranches": 8,
+        "totalbranches": 16,
+        "classesinassembly": [
+          {
+            "name": "Server.ClientOptions.Adapter.Automapper.ClientOptionsProfile",
+            "coverage": 100,
+            "coveredlines": 15,
+            "coverablelines": 15,
+            "totallines": 32,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Adapter.ClientOptionsController",
+            "coverage": 69.8,
+            "coveredlines": 37,
+            "coverablelines": 53,
+            "totallines": 165,
+            "branchcoverage": 50,
+            "coveredbranches": 8,
+            "totalbranches": 16
+          },
+          {
+            "name": "Server.ClientOptions.Adapter.Models.Request.SaveOptionsRequest",
+            "coverage": 100,
+            "coveredlines": 2,
+            "coverablelines": 2,
+            "totallines": 18,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Adapter.Models.Response.ClientOptionsResponse",
+            "coverage": 100,
+            "coveredlines": 3,
+            "coverablelines": 3,
+            "totallines": 25,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.Common.DependencyInjection.ClientConfigurationAutofacModule",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 15,
+            "totallines": 32,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.ClientConfiguration.Application",
+        "classes": 1,
+        "coverage": 100,
+        "coveredlines": 97,
+        "coverablelines": 97,
+        "totallines": 152,
+        "branchcoverage": 100,
+        "coveredbranches": 16,
+        "totalbranches": 16,
+        "classesinassembly": [
+          {
+            "name": "Server.ClientOptions.Application.ClientOptionsService",
+            "coverage": 100,
+            "coveredlines": 97,
+            "coverablelines": 97,
+            "totallines": 152,
+            "branchcoverage": 100,
+            "coveredbranches": 16,
+            "totalbranches": 16
+          }
+        ]
+      },
+      {
+        "name": "Server.ClientConfiguration.Domain",
+        "classes": 5,
+        "coverage": 100,
+        "coveredlines": 14,
+        "coverablelines": 14,
+        "totallines": 163,
+        "branchcoverage": null,
+        "coveredbranches": 0,
+        "totalbranches": 0,
+        "classesinassembly": [
+          {
+            "name": "Server.ClientOptions.Domain.ClientGlobalOptionsEntity",
+            "coverage": 100,
+            "coveredlines": 2,
+            "coverablelines": 2,
+            "totallines": 8,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Domain.ClientRoleOptionsEntity",
+            "coverage": 100,
+            "coveredlines": 4,
+            "coverablelines": 4,
+            "totallines": 14,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Domain.ClientUserOptionsEntity",
+            "coverage": 100,
+            "coveredlines": 3,
+            "coverablelines": 3,
+            "totallines": 21,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Domain.OptionsEntry",
+            "coverage": 100,
+            "coveredlines": 3,
+            "coverablelines": 3,
+            "totallines": 60,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Domain.SaveOptionEntry",
+            "coverage": 100,
+            "coveredlines": 2,
+            "coverablelines": 2,
+            "totallines": 60,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.ClientConfiguration.Persistence",
+        "classes": 9,
+        "coverage": 10.8,
+        "coveredlines": 51,
+        "coverablelines": 469,
+        "totallines": 720,
+        "branchcoverage": null,
+        "coveredbranches": 0,
+        "totalbranches": 0,
+        "classesinassembly": [
+          {
+            "name": "Server.ClientOptions.Persistence.ClientGlobalOptionsEntityTypeConfiguration",
+            "coverage": 100,
+            "coveredlines": 4,
+            "coverablelines": 4,
+            "totallines": 14,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Persistence.ClientOptionsRepository",
+            "coverage": 90.2,
+            "coveredlines": 37,
+            "coverablelines": 41,
+            "totallines": 91,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Persistence.ClientRoleOptionsEntityTypeConfiguration",
+            "coverage": 100,
+            "coveredlines": 6,
+            "coverablelines": 6,
+            "totallines": 18,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Persistence.ClientUserOptionsEntityTypeConfiguration",
+            "coverage": 100,
+            "coveredlines": 4,
+            "coverablelines": 4,
+            "totallines": 16,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Persistence.Migrations.ClientOptionsContextModelSnapshot",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 56,
+            "totallines": 76,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Persistence.Migrations.DeveloperData",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 78,
+            "totallines": 115,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Persistence.Migrations.EfUpdate",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 114,
+            "totallines": 151,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Persistence.Migrations.Initial",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 102,
+            "totallines": 139,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ClientOptions.Persistence.Migrations.NewDefaultPortalSettings",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 64,
+            "totallines": 100,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.Core.Application",
+        "classes": 2,
+        "coverage": 47.5,
+        "coveredlines": 19,
+        "coverablelines": 40,
+        "totallines": 121,
+        "branchcoverage": 25,
+        "coveredbranches": 2,
+        "totalbranches": 8,
+        "classesinassembly": [
+          {
+            "name": "Server.Core.Application.ClientCallContext",
+            "coverage": 90.4,
+            "coveredlines": 19,
+            "coverablelines": 21,
+            "totallines": 65,
+            "branchcoverage": 33.3,
+            "coveredbranches": 2,
+            "totalbranches": 6
+          },
+          {
+            "name": "Server.Core.Application.ServerMediator",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 19,
+            "totallines": 56,
+            "branchcoverage": 0,
+            "coveredbranches": 0,
+            "totalbranches": 2
+          }
+        ]
+      },
+      {
+        "name": "Server.Core.Domain",
+        "classes": 1,
+        "coverage": 0,
+        "coveredlines": 0,
+        "coverablelines": 25,
+        "totallines": 37,
+        "branchcoverage": null,
+        "coveredbranches": 0,
+        "totalbranches": 0,
+        "classesinassembly": [
+          {
+            "name": "Server.Core.Domain.Address",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 25,
+            "totallines": 37,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.Core.InternalServerEvents",
+        "classes": 1,
+        "coverage": 66.6,
+        "coveredlines": 6,
+        "coverablelines": 9,
+        "totallines": 21,
+        "branchcoverage": null,
+        "coveredbranches": 0,
+        "totalbranches": 0,
+        "classesinassembly": [
+          {
+            "name": "Server.Core.InternalServerEvents.Incident.OnNewIncidentEvent",
+            "coverage": 66.6,
+            "coveredlines": 6,
+            "coverablelines": 9,
+            "totallines": 21,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.Core.Persistence",
+        "classes": 3,
+        "coverage": 50,
+        "coveredlines": 46,
+        "coverablelines": 92,
+        "totallines": 262,
+        "branchcoverage": 66.6,
+        "coveredbranches": 8,
+        "totalbranches": 12,
+        "classesinassembly": [
+          {
+            "name": "Server.Core.Persistence.BaseDbContext",
+            "coverage": 56.3,
+            "coveredlines": 40,
+            "coverablelines": 71,
+            "totallines": 201,
+            "branchcoverage": 66.6,
+            "coveredbranches": 8,
+            "totalbranches": 12
+          },
+          {
+            "name": "Server.Core.Persistence.DatabaseFacadeExtension",
+            "coverage": 100,
+            "coveredlines": 6,
+            "coverablelines": 6,
+            "totallines": 29,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.Core.Persistence.MigrationBuilderExtension",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 15,
+            "totallines": 32,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.IncidentManagement.Adapter",
+        "classes": 6,
+        "coverage": 52.2,
+        "coveredlines": 47,
+        "coverablelines": 90,
+        "totallines": 334,
+        "branchcoverage": 50,
+        "coveredbranches": 2,
+        "totalbranches": 4,
+        "classesinassembly": [
+          {
+            "name": "Server.Common.DependencyInjection.IncidentAutofacModule",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 23,
+            "totallines": 46,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Adapter.Automapper.IncidentProfile",
+            "coverage": 100,
+            "coveredlines": 19,
+            "coverablelines": 19,
+            "totallines": 34,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Adapter.IncidentController",
+            "coverage": 84,
+            "coveredlines": 21,
+            "coverablelines": 25,
+            "totallines": 118,
+            "branchcoverage": 50,
+            "coveredbranches": 2,
+            "totalbranches": 4
+          },
+          {
+            "name": "Server.IncidentManagement.Adapter.LocusMobileAdapter",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 4,
+            "totallines": 23,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Adapter.Models.Response.GetIncidentReponse",
+            "coverage": 53.8,
+            "coveredlines": 7,
+            "coverablelines": 13,
+            "totallines": 89,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Adapter.WebPortalAdapter",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 6,
+            "totallines": 24,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.IncidentManagement.Application",
+        "classes": 1,
+        "coverage": 94.8,
+        "coveredlines": 37,
+        "coverablelines": 39,
+        "totallines": 100,
+        "branchcoverage": 50,
+        "coveredbranches": 1,
+        "totalbranches": 2,
+        "classesinassembly": [
+          {
+            "name": "Server.IncidentManagement.Application.IncidentService",
+            "coverage": 94.8,
+            "coveredlines": 37,
+            "coverablelines": 39,
+            "totallines": 100,
+            "branchcoverage": 50,
+            "coveredbranches": 1,
+            "totalbranches": 2
+          }
+        ]
+      },
+      {
+        "name": "Server.IncidentManagement.Domain",
+        "classes": 3,
+        "coverage": 86.4,
+        "coveredlines": 51,
+        "coverablelines": 59,
+        "totallines": 169,
+        "branchcoverage": 100,
+        "coveredbranches": 16,
+        "totalbranches": 16,
+        "classesinassembly": [
+          {
+            "name": "Server.IncidentManagement.Domain.AggregatesModel.IncidentAggregate.Incident",
+            "coverage": 93.8,
+            "coveredlines": 46,
+            "coverablelines": 49,
+            "totallines": 113,
+            "branchcoverage": 100,
+            "coveredbranches": 16,
+            "totalbranches": 16
+          },
+          {
+            "name": "Server.IncidentManagement.Domain.AggregatesModel.IncidentAggregate.IncidentMission",
+            "coverage": 71.4,
+            "coveredlines": 5,
+            "coverablelines": 7,
+            "totallines": 33,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Domain.AggregatesModel.IncidentAggregate.MissionResource",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 3,
+            "totallines": 23,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.IncidentManagement.Persistence",
+        "classes": 10,
+        "coverage": 18.1,
+        "coveredlines": 48,
+        "coverablelines": 264,
+        "totallines": 530,
+        "branchcoverage": null,
+        "coveredbranches": 0,
+        "totalbranches": 0,
+        "classesinassembly": [
+          {
+            "name": "Server.IncidentManagement.Persistence.EntityConfigurations.IncidentEntityTypeConfiguration",
+            "coverage": 100,
+            "coveredlines": 29,
+            "coverablelines": 29,
+            "totallines": 51,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.EntityConfigurations.MissionEntityTypeConfiguration",
+            "coverage": 100,
+            "coveredlines": 9,
+            "coverablelines": 9,
+            "totallines": 27,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.EntityConfigurations.MissionResourceEntityTypeConfiguration",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 9,
+            "totallines": 27,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.IncidentRepository",
+            "coverage": 66.6,
+            "coveredlines": 10,
+            "coverablelines": 15,
+            "totallines": 55,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.Migrations.EfUpdate",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 42,
+            "totallines": 76,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.Migrations.Incident",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 64,
+            "totallines": 98,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.Migrations.IncidentRepositoryModelSnapshot",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 38,
+            "totallines": 58,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.Migrations.MissionRepositoryMigrations.MissionRepositoryModelSnapshot",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 2,
+            "totallines": 21,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.Migrations.TemporalTables",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 44,
+            "totallines": 78,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.MissionRepository",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 12,
+            "totallines": 39,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.ResourceManagement.Adapter",
+        "classes": 5,
+        "coverage": 21.7,
+        "coveredlines": 10,
+        "coverablelines": 46,
+        "totallines": 180,
+        "branchcoverage": 0,
+        "coveredbranches": 0,
+        "totalbranches": 2,
+        "classesinassembly": [
+          {
+            "name": "Server.Common.DependencyInjection.ResourceAutofacModule",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 14,
+            "totallines": 30,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Adapter.Models.Request.AddAmbulanceRequest",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 1,
+            "totallines": 13,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Adapter.Models.Response.GetResourcesResponse",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 2,
+            "totallines": 26,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Adapter.ResourceController",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 19,
+            "totallines": 86,
+            "branchcoverage": 0,
+            "coveredbranches": 0,
+            "totalbranches": 2
+          },
+          {
+            "name": "Server.ResourceManagement.Common.Mappings.ResourceProfile",
+            "coverage": 100,
+            "coveredlines": 10,
+            "coverablelines": 10,
+            "totallines": 25,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.ResourceManagement.Application",
+        "classes": 1,
+        "coverage": 0,
+        "coveredlines": 0,
+        "coverablelines": 39,
+        "totallines": 84,
+        "branchcoverage": 0,
+        "coveredbranches": 0,
+        "totalbranches": 2,
+        "classesinassembly": [
+          {
+            "name": "Server.ResourceManagement.Application.ResourceService",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 39,
+            "totallines": 84,
+            "branchcoverage": 0,
+            "coveredbranches": 0,
+            "totalbranches": 2
+          }
+        ]
+      },
+      {
+        "name": "Server.ResourceManagement.Domain",
+        "classes": 7,
+        "coverage": 0,
+        "coveredlines": 0,
+        "coverablelines": 102,
+        "totallines": 271,
+        "branchcoverage": 0,
+        "coveredbranches": 0,
+        "totalbranches": 14,
+        "classesinassembly": [
+          {
+            "name": "Server.ResourceManagement.Domain.AggregatesModel.Ambulance",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 1,
+            "totallines": 8,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Domain.AggregatesModel.MobileUnit",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 13,
+            "totallines": 37,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Domain.AggregatesModel.Paramedic",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 15,
+            "totallines": 30,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Domain.AggregatesModel.Resource",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 26,
+            "totallines": 66,
+            "branchcoverage": 0,
+            "coveredbranches": 0,
+            "totalbranches": 6
+          },
+          {
+            "name": "Server.ResourceManagement.Domain.AggregatesModel.Shift",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 37,
+            "totallines": 89,
+            "branchcoverage": 0,
+            "coveredbranches": 0,
+            "totalbranches": 8
+          },
+          {
+            "name": "Server.ResourceManagement.Domain.AggregatesModel.TetraRadio",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 5,
+            "totallines": 18,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Domain.AggregatesModel.TransMobile",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 5,
+            "totallines": 23,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.ResourceManagement.Dto",
+        "classes": 2,
+        "coverage": 0,
+        "coveredlines": 0,
+        "coverablelines": 6,
+        "totallines": 21,
+        "branchcoverage": null,
+        "coveredbranches": 0,
+        "totalbranches": 0,
+        "classesinassembly": [
+          {
+            "name": "Server.ResourceManagement.Dto.AllResourcesDto",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 5,
+            "totallines": 14,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Dto.AmbulanceDto",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 1,
+            "totallines": 7,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      },
+      {
+        "name": "Server.ResourceManagement.Persistance",
+        "classes": 10,
+        "coverage": 0,
+        "coveredlines": 0,
+        "coverablelines": 714,
+        "totallines": 1107,
+        "branchcoverage": null,
+        "coveredbranches": 0,
+        "totalbranches": 0,
+        "classesinassembly": [
+          {
+            "name": "Server.IncidentManagement.Persistence.EntityConfigurations.AmbulanceEntityTypeConfiguration",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 2,
+            "totallines": 49,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.EntityConfigurations.ParamedicEntityTypeConfiguration",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 17,
+            "totallines": 62,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.EntityConfigurations.TetraRadioEntityTypeConfiguration",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 12,
+            "totallines": 49,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.IncidentManagement.Persistence.EntityConfigurations.TransMobileEntityTypeConfiguration",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 12,
+            "totallines": 51,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Persistence.Migrations.DomainObjectBaseId",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 135,
+            "totallines": 176,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Persistence.Migrations.EfUpdate",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 119,
+            "totallines": 160,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Persistence.Migrations.Resource",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 159,
+            "totallines": 200,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Persistence.Migrations.ResourceContextModelSnapshot",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 115,
+            "totallines": 141,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Persistence.Migrations.TemporalTables",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 117,
+            "totallines": 159,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          },
+          {
+            "name": "Server.ResourceManagement.Persistence.ResourceRepository",
+            "coverage": 0,
+            "coveredlines": 0,
+            "coverablelines": 26,
+            "totallines": 60,
+            "branchcoverage": null,
+            "coveredbranches": 0,
+            "totalbranches": 0
+          }
+        ]
+      }
+    ]
+  }
+}
